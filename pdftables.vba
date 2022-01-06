@@ -25,7 +25,7 @@
 Option Explicit
 Sub PDF2Workbook()
 
-      Application.Run "PDFTables2Workbook", , True
+      Application.Run "PDF2Workbook", , True
 
 End Sub
 
@@ -34,7 +34,7 @@ Sub ShowPagesLeft()
       MsgBox PDFTablesPages, vbOKOnly + vbInformation, " PDFTables"
 
 End Sub
-Sub PDFTables2Workbook(Optional ByVal InitialFolderFile As String = vbNullString, Optional ByVal AllowMultiSelect As Boolean = False)
+Sub PDF2Workbook(Optional ByVal InitialFolderFile As String = vbNullString, Optional ByVal AllowMultiSelect As Boolean = False)
 
 ' This macro will allow you to select PDF documents to be converted into Excel, using online API from pdftables.com.
 '
